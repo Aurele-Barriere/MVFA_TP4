@@ -42,7 +42,7 @@ init {
   
 /*
 
-In this file, we implement Dijsktra Resource hierarchy solution ( https://en.wikipedia.org/wiki/Dining_philosophers_problem#Resource_hierarchy_solution )
+In this file, we implement Dijkstra Resource hierarchy solution ( https://en.wikipedia.org/wiki/Dining_philosophers_problem#Resource_hierarchy_solution )
 
 
 Basically, each fork is given a number (in our case, it's index in the array).
