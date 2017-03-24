@@ -38,8 +38,8 @@ init {
      run Philo(3);
      run Philo(4);
 }
-    
-  
+
+
 /*
 
 In this file, we implement Dijkstra Resource hierarchy solution ( https://en.wikipedia.org/wiki/Dining_philosophers_problem#Resource_hierarchy_solution )
@@ -56,7 +56,7 @@ Which means that a philosopher can take the fork to its right if
 
 It prevents them from taking each one fork because the highest one cannot be taken as a first fork.
 
-Indeed, after executing the verification tool, we have 
+Indeed, after executing the verification tool, we have
 
 Full statespace search for:
 	never claim         	+ (deadlock_free)

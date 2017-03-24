@@ -114,7 +114,7 @@ proctype Bob() {
 init {
 	atomic {
 		run Alice(867864);
-		run Charlie(1);
+		run Charlie(1); // Replace 1 by 0 to get a passive Charlie
 		run Bob()
 	}
 }
